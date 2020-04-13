@@ -7,7 +7,7 @@
 //
 
 import Foundation
-struct Season {
+struct Season: Hashable {
     var episodes: [Episode]
     let number: Int
 }

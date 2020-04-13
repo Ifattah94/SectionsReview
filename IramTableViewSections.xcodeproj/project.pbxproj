@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		817380722445299D00E3516C /* SeasonOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817380712445299D00E3516C /* SeasonOrganizer.swift */; };
 		81B35E142444F8F7009FB943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B35E132444F8F7009FB943 /* AppDelegate.swift */; };
 		81B35E162444F8F7009FB943 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B35E152444F8F7009FB943 /* SceneDelegate.swift */; };
 		81B35E1B2444F8F7009FB943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B35E192444F8F7009FB943 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		817380712445299D00E3516C /* SeasonOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonOrganizer.swift; sourceTree = "<group>"; };
 		81B35E102444F8F7009FB943 /* IramTableViewSections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IramTableViewSections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B35E132444F8F7009FB943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B35E152444F8F7009FB943 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				81B35E302444FBA4009FB943 /* EpisodeParsingService.swift */,
+				817380712445299D00E3516C /* SeasonOrganizer.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				81B35E282444F9AD009FB943 /* EpisodesVC.swift in Sources */,
 				81B35E2C2444FA58009FB943 /* Episode.swift in Sources */,
+				817380722445299D00E3516C /* SeasonOrganizer.swift in Sources */,
 				81B35E312444FBA4009FB943 /* EpisodeParsingService.swift in Sources */,
 				81B35E2E2444FA7F009FB943 /* Season.swift in Sources */,
 				81B35E142444F8F7009FB943 /* AppDelegate.swift in Sources */,
