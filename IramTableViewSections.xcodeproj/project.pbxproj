@@ -45,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8173806D2445266E00E3516C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				81B35E302444FBA4009FB943 /* EpisodeParsingService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8173806E2445267E00E3516C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81B35E272444F9AD009FB943 /* EpisodesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		81B35E072444F8F7009FB943 = {
 			isa = PBXGroup;
 			children = (
@@ -64,16 +80,16 @@
 		81B35E122444F8F7009FB943 /* IramTableViewSections */ = {
 			isa = PBXGroup;
 			children = (
+				8173806D2445266E00E3516C /* Service */,
 				81B35E132444F8F7009FB943 /* AppDelegate.swift */,
 				81B35E152444F8F7009FB943 /* SceneDelegate.swift */,
 				81B35E192444F8F7009FB943 /* Main.storyboard */,
 				81B35E1C2444F8F9009FB943 /* Assets.xcassets */,
 				81B35E1E2444F8F9009FB943 /* LaunchScreen.storyboard */,
 				81B35E212444F8F9009FB943 /* Info.plist */,
-				81B35E272444F9AD009FB943 /* EpisodesVC.swift */,
+				8173806E2445267E00E3516C /* Controller */,
 				81B35E292444FA0B009FB943 /* episodes.json */,
 				81B35E2F2444FB41009FB943 /* Model */,
-				81B35E302444FBA4009FB943 /* EpisodeParsingService.swift */,
 			);
 			path = IramTableViewSections;
 			sourceTree = "<group>";
